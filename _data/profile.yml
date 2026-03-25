@@ -1,0 +1,33 @@
+name: Osbern Huang, Ph.D.
+short_name: Osbern Huang
+position: Research Fellow
+institution: School of Government and International Relations, Griffith University
+location: Nathan, Queensland, Australia
+email: o.huang@griffith.edu.au
+phone: "+61 411 573 850"
+website: "https://osberntw.github.io"
+cv_file: "/assets/files/CV.pdf"
+portrait: "/Portrait.jpg"
+research_interests:
+  - Democratization and democratic consolidation
+  - Public opinion and survey methodology
+  - Comparative politics in East and Southeast Asia
+  - Political trust, cultural values, and redistribution
+bio: >
+  Osbern Huang is a Research Fellow at Griffith University whose work sits at
+  the intersection of comparative politics, democratic resilience, survey
+  research, and public opinion. His research draws on experience across Taiwan,
+  Australia, China, and Myanmar, with a particular focus on how cultural values,
+  institutions, and survey design shape democratic attitudes and political
+  behaviour.
+summary_points:
+  - Leads and supports large-scale survey projects, including the Australian Constitutional Values Survey (ACVS) 2025.
+  - Brings experience from Griffith University, National Taiwan University, ANU, and Ipsos.
+  - Combines academic research with applied expertise in data collection, GIS sampling, and mixed-mode survey design.
+profiles:
+  - label: Google Scholar
+    url: "[placeholder]"
+  - label: ORCID
+    url: "[placeholder]"
+  - label: GitHub
+    url: "[placeholder]"

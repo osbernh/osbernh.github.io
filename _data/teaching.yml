@@ -1,0 +1,45 @@
+- role: Lecturer
+  course: "Parties, Campaigns and Elections (GIR3019)"
+  period: Trimester 2, 2025
+  notes:
+    - "Convenor: Prof. Fernando Martinez i Coma"
+- role: Guest Lecturer
+  course: "Asia-Pacific Integrity School 2025: Intensive Course of Political Trust"
+  period: 24-30 Aug 2025
+  notes:
+    - "Convenor: Prof. A.J. Brown"
+- role: Teaching Assistant
+  course: "Statistical Methods for the Social Science (graduate-level)"
+  period: Spring 2016 - 2020, 2024
+  notes:
+    - "Instructor: Dr. Min-Hua Huang"
+- role: Teaching Assistant
+  course: "Seminar on Multilevel Modeling (advanced undergraduate)"
+  period: Fall 2019
+  notes:
+    - "Instructor: Dr. Min-Hua Huang"
+- role: Teaching Assistant
+  course: "The Rise and Fall of Democracies around the World"
+  period: Fall 2019
+  notes:
+    - "Instructor: Dr. Shelley Rigger"
+- role: Teaching Assistant
+  course: "Seminar on Experimental Methods in Political Science (graduate-level)"
+  period: Spring 2019
+  notes:
+    - "Instructor: Dr. Jason Kuo"
+- role: Teaching Assistant
+  course: "Programming for Statistical Analysis (advanced undergraduate)"
+  period: Fall 2016 - 2018
+  notes:
+    - "Instructor: Dr. Min-Hua Huang"
+- role: Teaching Assistant
+  course: "The Political Economy of Development in Taiwan (undergraduate)"
+  period: Fall 2017
+  notes:
+    - "Instructor: Dr. Yu-tzung Chang"
+- role: Teaching Assistant
+  course: "Comparative Government (undergraduate)"
+  period: Fall 2016 - Spring 2017
+  notes:
+    - "Instructor: Dr. Yu-tzung Chang"
