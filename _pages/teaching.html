@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+Language and technical skills
+======
+* **Languages:** {% for item in site.data.service.skills.languages %}{{ item }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+* **Technical skills:** {% for item in site.data.service.skills.tools %}{{ item }}{% unless forloop.last %}; {% endunless %}{% endfor %}

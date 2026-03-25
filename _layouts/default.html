@@ -1,33 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
+
   <body>
-    <div class="site-shell">
-      <header class="site-header">
-        <div class="site-brand">
-          <a href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
-          <p>{{ site.data.profile.position }}</p>
-        </div>
-        <nav class="site-nav" aria-label="Primary">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/research/' | relative_url }}">Research</a>
-          <a href="{{ '/publications/' | relative_url }}">Publications</a>
-          <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-          <a href="{{ '/cv/' | relative_url }}">CV</a>
-        </nav>
-      </header>
-      <main class="page-content">
-        {{ content }}
-      </main>
-      <footer class="site-footer">
-        <p>{{ site.data.profile.name }} · {{ site.data.profile.position }} · {{ site.data.profile.institution }}</p>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
       </footer>
     </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
