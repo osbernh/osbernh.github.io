@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Osbern Huang"
 title_separator          : "-"
 name                     : &name "Osbern Huang"
-description              : &description "Academic website of Osbern Huang, Research Fellow at Griffith University."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I am Osbern"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://osbernh.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "Portrait.jpg"
   name             : "Osbern Huang, Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Research Fellow working on democratization, public opinion, political trust, and survey methodology across East and Southeast Asia."
+  bio              : "Research Fellow working on democratisation, public opinion, political trust, and survey methodology across East and Southeast Asia. Father of two and also a pharmacist."
   location         : "Nathan, Queensland, Australia"
   employer         : "Griffith University"
   uri              : "https://osbernh.github.io"
