@@ -6,5 +6,6 @@ permalink: /publication/government-redistribution-east-asia
 date: 2025-01-01
 venue: "Journal of Asian Governance"
 citation: "Huang, Osbern. (2025). &quot;Shaping Demands for Government Redistribution in East Asia: Cultural Values and Economic Factors.&quot; <i>Journal of Asian Governance</i>, 2(1), 25-49."
+paperurl: "https://doi.org/10.63851/001c.133774"
 excerpt: "Article on redistribution preferences, culture, and economic attitudes in East Asia."
 ---

@@ -5,11 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find publications on [Google Scholar]({{ site.author.googlescholar }}).
+You can also find publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+{% for post in sorted_publications %}
   {% include archive-single.html %}
 {% endfor %}
 

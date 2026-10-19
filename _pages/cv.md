@@ -34,7 +34,8 @@ Research projects
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  {% assign sorted_publications = site.publications | sort: "date" | reverse %}
+  <ul>{% for post in sorted_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
